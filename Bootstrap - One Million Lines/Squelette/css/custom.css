@@ -1,0 +1,52 @@
+/* Vos customisations des classes de Bootstrap */
+
+p {
+    font-size: 23px;
+}
+
+.jumbo {
+    margin-bottom: 0;
+}
+
+.navbarbtn {
+    padding-left: 50%;
+}
+
+#home {
+    background-image: url("../images/hero-image.jpg");
+    height: 621px;
+}
+
+.logo {
+    margin-left: 179px;
+}
+
+.fondjumbotron {
+    background-color: transparent;
+    height: 467px;
+}
+
+.popup {
+    background-color: white;
+    height: 369px;
+    width: 605px;
+    padding: 8px 0px 0px 7px;
+}
+.close_x{
+    position: relative;
+    top: -361px;
+    border-top: none;
+}
+#boutton {
+    height: 63px;
+    width: 239px;
+    font-size: 32px;
+}
+
+hr {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
