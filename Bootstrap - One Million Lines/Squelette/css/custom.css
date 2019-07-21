@@ -1,9 +1,5 @@
 /* Vos customisations des classes de Bootstrap */
 
-p {
-    font-size: 23px;
-}
-
 .jumbo {
     margin-bottom: 0;
 }
@@ -14,7 +10,7 @@ p {
 
 #home {
     background-image: url("../images/hero-image.jpg");
-    height: 621px;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -23,7 +19,6 @@ p {
 
 .fondjumbotron {
     background-color: transparent;
-    height: 467px;
 }
 
 .popup {
@@ -32,21 +27,79 @@ p {
     width: 605px;
     padding: 8px 0px 0px 7px;
 }
-.close_x{
+
+.close_x {
     position: relative;
     top: -361px;
     border-top: none;
 }
+
 #boutton {
     height: 63px;
     width: 239px;
     font-size: 32px;
 }
 
-hr {}
+.fleche {
+    color: black;
+}
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+    #home {
+        height: 600px;
+    }
+    p {
+        font-size: 17px;
+    }
+    p.lead {
+        font-size: 19px;
+        width: 792px;
+    }
+    hr {
+        width: 11%;
+    }
+}
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    #home {
+        height: 660px;
+    }
+    p {
+        font-size: 18px;
+    }
+    p.lead {
+        font-size: 19px;
+        width: 655px;
+    }
+    hr {
+        width: 17%;
+    }
+}
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    #home {
+        height: 424px;
+
+    }
+    p {
+        font-size: 16px;
+    }
+    .container {
+        max-width: 90%;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    p.lead {
+        font-size: 14px;
+        width: 630px;
+    }
+    hr {
+        width: 33%;
+    }
+    #boutton {
+    height: 43px;
+    width: 138px;
+    font-size: 16px;
+}
+}
