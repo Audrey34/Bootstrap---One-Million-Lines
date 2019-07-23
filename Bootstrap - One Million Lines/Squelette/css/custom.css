@@ -13,6 +13,11 @@
     background-repeat: no-repeat;
 }
 
+p.lead {
+    font-size: 20px;
+    width: 990px;
+}
+
 .logo {
     margin-left: 179px;
 }
@@ -44,20 +49,37 @@
     color: black;
 }
 
+hr {
+    width: 12%;
+}
+
+p {
+    font-size: 19px;
+}
+
 @media (max-width: 1199px) {
     #home {
-        height: 600px;
+        height: 655px;
+    }
+    h2 {
+        font-size: 54px;
+        margin: 0;
     }
     p {
-        font-size: 17px;
+        font-size: 19px;
     }
     p.lead {
-        font-size: 19px;
-        width: 792px;
+        font-size: 23px;
+        width: 885px;
     }
     hr {
         width: 11%;
     }
+    #boutton {
+    height: 63px;
+    width: 266px;
+    font-size: 35px;
+}
 }
 
 @media (max-width: 991px) {
@@ -79,7 +101,6 @@
 @media (max-width: 767px) {
     #home {
         height: 424px;
-
     }
     p {
         font-size: 16px;
@@ -87,7 +108,7 @@
     .container {
         max-width: 90%;
     }
-    h2{
+    h2 {
         font-size: 20px !important;
     }
     p.lead {
@@ -98,8 +119,8 @@
         width: 33%;
     }
     #boutton {
-    height: 43px;
-    width: 138px;
-    font-size: 16px;
-}
+        height: 43px;
+        width: 138px;
+        font-size: 16px;
+    }
 }
